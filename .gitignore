@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Git
+.git/
+
+
+# IDE configs
+.vscode/
+.idea/
+
+# App runtime folders
+uploads/
+results/
+
+# Environment files
+.env
+model/*.pt
