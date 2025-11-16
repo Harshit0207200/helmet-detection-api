@@ -30,3 +30,30 @@ results/
 
 # Environment files
 .env
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+runs/
+datasets/
+*.dll
+*.so
+*.zip
+*.mp4
+*.jpg
+*.png
+
+# Ignore model training folders
+train/
+val/
+notebooks/
+data/
+
+# Important: allow ONLY best.pt
+model/*
+!model/best.pt
+
